@@ -1,10 +1,14 @@
-﻿namespace GradeBook.GradeBooks
+﻿using GradeBook.Enums;
+
+
+
+namespace GradeBook.GradeBooks
 {
-    internal class RankedGradeBook : BaseGradeBook
+    public class RankedGradeBook : BaseGradeBook
     {
         public RankedGradeBook(string name): base(name)
         {
-            this.Type = Enums.GradeBookType.Ranked;
+            this.Type = GradeBookType.Ranked;
         }
     }
 }

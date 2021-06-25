@@ -2,7 +2,7 @@
 
 namespace GradeBook.GradeBooks
 {
-    internal class StandardGradeBook : BaseGradeBook
+    public class StandardGradeBook : BaseGradeBook
     {
         public StandardGradeBook(string name) : base(name) // INVOKE BASE CONSTRUCTOR ON NAME
             /*This constructor is required to invoke a constructor from BaseGradeBook.
